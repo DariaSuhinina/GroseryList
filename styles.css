@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "GrapeNuts";
+  src: url(./GrapeNuts-Regular.ttf);
+}
+
+body {
+  background-color: #F08080;
+  margin: 0;
+}
+
+.container {
+  background-color: #f0f8ff;
+  width: 50%;
+  min-height: 100vh;
+  margin: 0 auto 0 auto;
+  box-shadow: 10px 3px 15px rgba(105, 105, 105, .5), -10px 3px 15px rgba(105, 105, 105, .5);
+  box-sizing: border-box;
+  font-family: "GrapeNuts", Arial, Helvetica, sans-serif;
+  color: rgb(105, 105, 105);
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 50px;
+}
+
+.activeBlock {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+#userInput {
+  cursor: text;
+  outline: 0;
+  background-color: #f0f8ff;
+  border-bottom: rgb(105, 105, 105) 3px solid;
+  font-size: 35px;
+  font-family: "GrapeNuts", Arial, Helvetica, sans-serif;
+  color: rgb(105, 105, 105);
+  width: 70%;
+  line-height: 40px;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  margin-bottom: 5px;
+}
+
+.groseryItems {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  width: 60%;
+  margin: auto;
+}
+
+.oneItem {
+  font-size: 35px;
+  font-weight: 100;
+  margin: 0;
+  cursor: pointer;
+}
+
+#eraser {
+  cursor: pointer;
+}
